@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FF0A0C12</color>
+
+    <style name="Theme.Muffuq" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:windowShowWallpaper">false</item>
+    </style>
+
+    <style name="Theme.Muffuq.Mirror" parent="Theme.Muffuq">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+</resources>

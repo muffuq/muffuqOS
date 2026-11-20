@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- Debug builds only: `adb shell am broadcast -n com.muffuq.os/.debug.EldTestEncoder` -->
+        <receiver
+            android:name=".debug.EldTestEncoder"
+            android:exported="true" />
+        <!-- Silent fake "now playing" session for testing the Stage; usage in FakeNowPlaying.kt. -->
+        <receiver
+            android:name=".debug.FakeNowPlaying"
+            android:exported="true" />
+    </application>
+</manifest>

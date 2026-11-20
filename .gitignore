@@ -1,0 +1,14 @@
+# Build output
+launcher/.gradle/
+launcher/.kotlin/
+launcher/build/
+launcher/app/build/
+launcher/local.properties
+launcher/.idea/
+*.iml
+dist/
+
+# Per-machine / per-TV state
+backups/
+tools/.device
+tools/platform-tools/

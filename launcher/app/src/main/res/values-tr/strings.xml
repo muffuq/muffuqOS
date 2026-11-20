@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_offline">Çevrimdışı</string>
+    <string name="network_wifi">Wi-Fi</string>
+    <string name="network_ethernet">Kablolu</string>
+
+    <string name="row_recents">Son kullanılanlar</string>
+    <string name="row_all_apps">Tüm uygulamalar</string>
+    <string name="favorites_empty">Aşağıdan bir uygulamada OK tuşunu basılı tut ve “Favorilere ekle”yi seç.</string>
+
+    <string name="chip_favorite">Favori</string>
+    <string name="chip_tv_app">TV uygulaması</string>
+    <string name="chip_phone_app">Telefon uygulaması</string>
+    <string name="hint_options">Seçenekler için OK\'yi basılı tut</string>
+    <string name="hint_move">◀ ▶ ile taşı · OK ile bitir</string>
+
+    <string name="spotlight_network">Ağ</string>
+    <string name="spotlight_network_desc">Wi-Fi, kablolu bağlantı ve ağ ayarları</string>
+    <string name="spotlight_settings">Ayarlar</string>
+    <string name="spotlight_settings_desc">TV sistem ayarları</string>
+    <string name="spotlight_customize">Özelleştir</string>
+    <string name="spotlight_customize_desc">Vurgu rengi, canlı arka plan ve gizli uygulamalar</string>
+
+    <string name="action_open">Aç</string>
+    <string name="action_favorite_add">Favorilere ekle</string>
+    <string name="action_favorite_remove">Favorilerden çıkar</string>
+    <string name="action_move">Sırasını değiştir</string>
+    <string name="action_hide">Gizle</string>
+    <string name="action_info">Uygulama bilgisi</string>
+    <string name="action_uninstall">Kaldır</string>
+
+    <string name="settings_accent">Vurgu rengi</string>
+    <string name="settings_ambient">Canlı arka plan</string>
+    <string name="settings_ambient_desc">Arka plan, seçili uygulamanın renklerini alır</string>
+    <string name="settings_hidden">Gizli uygulamalar</string>
+    <string name="settings_hidden_empty">Gizli uygulama yok.</string>
+    <string name="settings_hidden_hint">Tekrar göstermek için uygulamayı seç.</string>
+    <string name="settings_version">Sürüm %1$s</string>
+
+    <string name="launch_failed">%1$s açılamadı</string>
+
+    <string name="airplay_channel">Ekran yansıtma</string>
+    <string name="airplay_ready">Ekran yansıtmaya hazır</string>
+    <string name="airplay_ready_hint">iPhone veya iPad’de Ekran Yansıtma’dan “%1$s”i seç</string>
+    <string name="mirror_connecting">bağlanıyor…</string>
+    <string name="mirror_stop_hint">Yansıtmayı bitirmek için Geri tuşuna bas</string>
+    <string name="mirror_paused">%1$s ekranı kilitli</string>
+
+    <string name="cast_pill">Yansıt</string>
+    <string name="spotlight_cast_desc">iPhone, iPad veya bilgisayar ekranını TV’ye yansıt</string>
+    <string name="cast_title">Ekran yansıtma</string>
+    <string name="cast_apple">iPhone ve iPad</string>
+    <string name="cast_apple_ready">“%1$s” olarak hazır</string>
+    <string name="cast_apple_steps">Denetim Merkezi → Ekran Yansıtma → %1$s</string>
+    <string name="cast_pc">Bilgisayar</string>
+    <string name="cast_pc_open">Moonlight’ı aç</string>
+    <string name="cast_pc_hint">Bilgisayarda Sunshine açık olmalı</string>
+    <string name="cast_pc_missing">Bilgisayarı yansıtmak için Moonlight’ı kur</string>
+    <string name="cast_android">Android telefon</string>
+    <string name="cast_android_steps">YouTube, Netflix gibi uygulamalarda yayın simgesine dokun</string>
+
+    <string name="stage_pill">Sahne</string>
+    <string name="spotlight_stage_desc">Çalan şarkının kelime kelime sözleri ve ışığı</string>
+    <string name="spotlight_stage_playing">%1$s · sözler ve ışık</string>
+    <string name="stage_idle_title">Şu an bir şey çalmıyor</string>
+    <string name="stage_idle_hint">TV’deki Spotify’da bir şey çal ya da telefondan veya bilgisayardan Spotify Connect ile bu TV’yi seç.</string>
+    <string name="stage_no_access_title">Çalan şarkı görülemiyor</string>
+    <string name="stage_no_access_hint">Bilgisayarda muffuq.bat’ı aç ve launcher adımını bir kez daha çalıştır.</string>
+    <string name="stage_loading">Sözler aranıyor…</string>
+    <string name="stage_not_found">Bu şarkı için zamanlı söz bulunamadı</string>
+    <string name="stage_unavailable">Söz kaynaklarına şu an ulaşılamıyor</string>
+    <string name="stage_instrumental">Enstrümantal</string>
+    <string name="stage_paused">Duraklatıldı</string>
+    <string name="stage_hint">◀ ▶ görünüm  ·  OK durdur/oynat  ·  Geri çıkış</string>
+    <string name="stage_source">Sözler: %1$s</string>
+</resources>

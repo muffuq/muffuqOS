@@ -1,0 +1,39 @@
+# muffuqOS - debloat listesi
+#
+# Biçim:  seviye | paket | açıklama
+#
+#   safe        Arka planda dönen, kimsenin fark etmeyeceği servisler.        -> "güvenli" ve "önerilen"de seçili
+#   apps        Önyüklü gelen ama çoğu kişinin açmadığı uygulamalar.          -> "önerilen"de seçili
+#   aggressive  Bir özelliği kapatır (asistan, Chromecast...).                -> sadece "agresif"te seçili
+#   optional    Listede görünür ama hiçbir hazır ayarda otomatik seçilmez.
+#
+# Hiçbir şey silinmez; paketler sadece devre dışı bırakılır (pm disable-user) ve
+# araçtaki "Geri al" hepsini geri açar. TV'de yüklü olmayan paketler kendiliğinden atlanır.
+# Bir satırı listeden çıkarmak için başına # koyman yeterli.
+#
+# Stok launcher ve onu besleyen servisler burada değil, launcher adımı yönetiyor.
+
+# --- Google / Android TV -----------------------------------------------------
+safe       | com.google.android.feedback                          | Google geri bildirim gönderici
+safe       | com.google.android.partnersetup                      | Üretici kurulum yardımcısı (ilk kurulumda iş görür)
+safe       | com.google.android.onetimeinitializer                | İlk açılış başlatıcısı (bir kez çalışır)
+safe       | com.google.android.syncadapters.calendar             | Google Takvim senkronu (TV'de takvim yok)
+safe       | com.android.printspooler                             | Yazdırma servisi
+safe       | com.google.android.leanbacklauncher.recommendations  | Eski launcher'ın öneri servisi
+safe       | com.google.android.adservices.api                    | Reklam servisleri (Privacy Sandbox)
+apps       | com.google.android.play.games                        | Google Play Oyunlar
+apps       | com.google.android.videos                            | Google Play Filmler / Google TV uygulaması
+apps       | com.google.android.youtube.tvkids                    | YouTube Kids
+optional   | com.google.android.youtube.tvmusic                   | YouTube Music
+optional   | com.google.android.backdrop                          | Ortam modu (fotoğraflı ekran koruyucu)
+optional   | com.google.android.apps.tv.dreamx                    | Google TV ortam modu
+optional   | com.android.dreams.basic                             | Renkli ekran koruyucu
+aggressive | com.google.android.katniss                           | Google Asistan + sesli arama (kumandadaki mikrofon tuşu çalışmaz)
+aggressive | com.google.android.apps.mediashell                   | Chromecast (telefondan/bilgisayardan yayın yapamazsın)
+aggressive | com.google.android.tv.remote.service                 | Telefonu kumanda olarak kullanma (Google TV uygulaması)
+aggressive | com.google.android.tts                               | Metin okuma motoru
+
+# --- Skyworth üretimi TV'ler (Beko, Grundig ve diğerleri) --------------------
+safe       | fusion.android.tv.demo                               | Mağaza vitrin modu servisi (evde boşuna sürekli çalışır)
+safe       | com.smartdevice.common.demonow                       | Mağaza demo uygulaması
+apps       | com.Smartdevice.emanual                              | Dijital kullanım kılavuzu

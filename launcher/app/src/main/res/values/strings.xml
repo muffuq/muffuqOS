@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">muffuqOS</string>
+
+    <string name="network_offline">Offline</string>
+    <string name="network_wifi">Wi-Fi</string>
+    <string name="network_ethernet">Ethernet</string>
+
+    <string name="row_recents">Recently used</string>
+    <string name="row_all_apps">All apps</string>
+    <string name="favorites_empty">Long-press OK on any app below and choose “Add to favorites”.</string>
+
+    <string name="chip_favorite">Favorite</string>
+    <string name="chip_tv_app">TV app</string>
+    <string name="chip_phone_app">Phone app</string>
+    <string name="hint_options">Hold OK for options</string>
+    <string name="hint_move">◀ ▶ to move · OK to finish</string>
+
+    <string name="spotlight_network">Network</string>
+    <string name="spotlight_network_desc">Wi-Fi, Ethernet and connection settings</string>
+    <string name="spotlight_settings">Settings</string>
+    <string name="spotlight_settings_desc">TV system settings</string>
+    <string name="spotlight_customize">Customize</string>
+    <string name="spotlight_customize_desc">Accent color, live background and hidden apps</string>
+
+    <string name="action_open">Open</string>
+    <string name="action_favorite_add">Add to favorites</string>
+    <string name="action_favorite_remove">Remove from favorites</string>
+    <string name="action_move">Reorder</string>
+    <string name="action_hide">Hide</string>
+    <string name="action_info">App info</string>
+    <string name="action_uninstall">Uninstall</string>
+
+    <string name="settings_accent">Accent color</string>
+    <string name="settings_ambient">Live background</string>
+    <string name="settings_ambient_desc">Background takes on the colors of the focused app</string>
+    <string name="settings_hidden">Hidden apps</string>
+    <string name="settings_hidden_empty">No hidden apps.</string>
+    <string name="settings_hidden_hint">Select an app to show it again.</string>
+    <string name="settings_version">Version %1$s</string>
+
+    <string name="launch_failed">Couldn\'t open %1$s</string>
+
+    <string name="airplay_channel">Screen mirroring</string>
+    <string name="airplay_ready">Ready for screen mirroring</string>
+    <string name="airplay_ready_hint">Pick “%1$s” in Screen Mirroring on your iPhone or iPad</string>
+    <string name="mirror_connecting">is connecting…</string>
+    <string name="mirror_stop_hint">Press Back to stop mirroring</string>
+    <string name="mirror_paused">%1$s screen is locked</string>
+
+    <string name="cast_pill">Cast</string>
+    <string name="spotlight_cast_desc">Show your iPhone, iPad or computer screen on the TV</string>
+    <string name="cast_title">Screen mirroring</string>
+    <string name="cast_apple">iPhone and iPad</string>
+    <string name="cast_apple_ready">Ready as “%1$s”</string>
+    <string name="cast_apple_steps">Control Center → Screen Mirroring → %1$s</string>
+    <string name="cast_pc">Computer</string>
+    <string name="cast_pc_open">Open Moonlight</string>
+    <string name="cast_pc_hint">Sunshine needs to be running on the computer</string>
+    <string name="cast_pc_missing">Install Moonlight to mirror a computer</string>
+    <string name="cast_android">Android phone</string>
+    <string name="cast_android_steps">Tap the cast icon in YouTube, Netflix and other apps</string>
+
+    <string name="stage_pill">Stage</string>
+    <string name="spotlight_stage_desc">Word-by-word lyrics and light for the song playing</string>
+    <string name="spotlight_stage_playing">%1$s · lyrics and light</string>
+    <string name="stage_idle_title">Nothing is playing</string>
+    <string name="stage_idle_hint">Play something in Spotify on the TV, or pick this TV in Spotify Connect from your phone or computer.</string>
+    <string name="stage_no_access_title">Can’t see what’s playing</string>
+    <string name="stage_no_access_hint">Run muffuq.bat on the computer and do the launcher step once more.</string>
+    <string name="stage_loading">Finding the lyrics…</string>
+    <string name="stage_not_found">No synced lyrics for this song</string>
+    <string name="stage_unavailable">Lyrics sources can’t be reached right now</string>
+    <string name="stage_instrumental">Instrumental</string>
+    <string name="stage_paused">Paused</string>
+    <string name="stage_hint">◀ ▶ style  ·  OK play/pause  ·  Back to leave</string>
+    <string name="stage_source">Lyrics: %1$s</string>
+</resources>
